@@ -1,0 +1,134 @@
+.container-text {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: orange;
+}
+
+
+
+
+
+
+
+
+.container3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: brown;
+	border-top: 1px ;
+  boder-right 10px ;
+  border-left: 5px ;
+  margin-right: 100px;
+  font-family: arial; 
+  text-align: right;
+}
+
+.containerflex {
+	display:flex;
+	font-size: 10px
+	justify-content: flex-end;
+
+}
+
+.containerinfo {
+	margin: 20px;
+	background-color: brown;
+	color: white; 
+	font-size: 20px
+	font-family : arial;
+	padding: 10px;
+	border-radius: 10px;
+
+
+}
+
+.containerinfo1 {
+	margin: 20px;
+	background-color: brown;
+	font-size: 20px
+	font-family : arial;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+.link-containerinfo1 {
+	text-decoration: none;
+	color: white; 
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container10 {
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  grid-template-columns: repeat(4, 250px);
+  gap: 1rem;
+  font-size: 1.6em;
+}
+p {
+  margin: 0;
+  padding: 1rem;
+  background: #f5992142; 
+}
+p::before {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+}
+.word-break-all {
+  word-break: break-all; 
+}
+.word-break-all::before {
+  content: "Ukraine";
+}
+.none {
+}
+.none::before {
+  content: "(rien)";
+}
+.hyphens {
+  hyphens: auto; 
+}
+.hyphens::before {
+  content: "Mali";
+}
+h1 {
+  text-align: center;
+}
+.tyu {
+	content: "Foot"
+
+}
+
+
+.card-article {
+	background: #f5992142;
+
+}
+
+
+
+
+
+
